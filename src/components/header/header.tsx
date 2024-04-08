@@ -37,7 +37,8 @@ function Header({idFilter, setIdFilter, nameFilter, setNameFilter, materialFilte
               onChange={e => setIdFilter(e.target.value)}
             />
           </label>
-          <select className="form-search__select"
+          <select 
+            className="form-search__select"
             name="type"
             value={materialFilter}
             onChange={e => setMaterialFilter(e.target.value as ProductType)}

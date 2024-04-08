@@ -7,6 +7,7 @@ import { productsMock } from '../mocks/mocks';
 import '../sass/app.scss'
 
 function App() {
+  
   const [idFilter, setIdFilter] = useState('');
   const [nameFilter, setNameFilter] = useState('');
   const [materialFilter, setMaterialFilter] = useState<ProductType>(ProductType.all);
